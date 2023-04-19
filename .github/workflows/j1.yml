@@ -1,0 +1,93 @@
+name: Get YouTube Live m3u8
+on:
+  schedule:
+    - cron: '0 0/3 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Install yt-dlp
+      run: |
+        sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
+        # j1东京新宿	
+    - name: Get j1.m3u8
+      run: |
+        touch ./j1.m3u8
+        sudo cat >./j1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j660000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=DjdUEyjx8GM)
+        EOL
+        # j2 恵比寿駅前
+    - name: Get j2.m3u8
+      run: |
+        touch ./j2.m3u8
+        sudo cat >./j2.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j660000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=LR7i5_pkJBg)
+        EOL
+        # j3 東京六本木
+    - name: Get j3.m3u8
+      run: |
+        touch ./j3.m3u8
+        sudo cat >./j3.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j660000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Uf2iLWzBpUI)
+        EOL
+        # j4 静岡市富士山
+    - name: Get j4.m3u8
+      run: |
+        touch ./j4.m3u8
+        sudo cat >./j4.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j660000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=OrGQEkkEkx4)
+        EOL		
+        # j5 富士山
+    - name: Get j5.m3u8
+      run: |
+        touch ./j5.m3u8
+        sudo cat >./j5.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j660000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=h6Z9v-qqHl8)
+        EOL
+        # j6 函館山
+    - name: Get j6.m3u8
+      run: |
+        touch ./j6.m3u8
+        sudo cat >./j6.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j660000
+        $(yt-dlp --print urls ttps://www.youtube.com/watch?v=Q1oSzjYcV9w)
+        EOL    
+
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+    - name: commit & push
+      run: |
+        git commit -m "links are updated"
+        git push
