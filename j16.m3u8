@@ -1,0 +1,6 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1860000
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1682350199/ei/FUxGZKaZOI76kgazp5qgBw/ip/13.83.4.101/id/q5T3DxdzLs0.5/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr1---sn-o097znsr.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/99c5CQgg3PKIV6PF0o0tZX5T7E2iJIw/vprv/1/playlist_type/DVR/mh/7F/mm/44/mn/sn-o097znsr/ms/lva/mv/u/mvi/1/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1682327754/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRAIgbCcDAvN_4z2Vv2lkB8XqbMOpckWiqj4Z5Zb57EqoOKACICiuv-4Fhb60M15OMb2SWC6rvNx6j1dSIpKccx4Wyw_b/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgPOU9jRWRgkL_8ZAX2vrzU53XWoj-CNg7KDp-57IsS6wCIF_Uoj-A1R25hWF_BGhayTpzIe11iZJsYbuDrQRyPdB9/playlist/index.m3u8
+EOL		
+# j17 熱海
