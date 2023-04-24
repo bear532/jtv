@@ -80,9 +80,138 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j660000
-        $(yt-dlp --print urls ttps://www.youtube.com/watch?v=Q1oSzjYcV9w)
-        EOL    
-
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Q1oSzjYcV9w)
+        EOL  
+        # j7厳島神社の大鳥居	
+    - name: Get j7.m3u8
+      run: |
+        touch ./j7.m3u8
+        sudo cat >./j7.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1260000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=LNiKVMGkEiM)
+        EOL
+        # j8 富士山山中湖高台
+    - name: Get j8.m3u8
+      run: |
+        touch ./j8.m3u8
+        sudo cat >./j8.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1260000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=87929IvGa-8)
+        EOL
+        # j9 富士山河口湖
+    - name: Get j9.m3u8
+      run: |
+        touch ./j9.m3u8
+        sudo cat >./j9.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1260000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Sv9hcJ3k5h4)
+        EOL
+        # j10 富士本栖湖
+    - name: Get j10.m3u8
+      run: |
+        touch ./j10.m3u8
+        sudo cat >./j10.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1260000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=SThyjXJ6xC4)
+        EOL		
+        # j11 静岡市さった峠
+    - name: Get j11.m3u8
+      run: |
+        touch ./j11.m3u8
+        sudo cat >./j11.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1260000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=oHci2QFaRZs)
+        EOL
+        # j12 西武新宿駅
+    - name: Get j12.m3u8
+      run: |
+        touch ./j12.m3u8
+        sudo cat >./j12.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1260000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=lA6TaaMGgDo)
+        EOL 
+        # j13大阪道頓堀	
+    - name: Get j13.m3u8
+      run: |
+        touch ./j13.m3u8
+        sudo cat >./j13.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1860000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=4Ek_1UULqq8)
+        EOL
+        # j14 東京新宿歌舞伎町
+    - name: Get j14.m3u8
+      run: |
+        touch ./j14.m3u8
+        sudo cat >./j14.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1860000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=gFRtAAmiFbE)
+        EOL
+        # j15 日本平夢
+    - name: Get j15.m3u8
+      run: |
+        touch ./j15.m3u8
+        sudo cat >./j15.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1860000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=2d0yO_QN1Iw)
+        EOL
+        # j16 中伊豆富士山
+    - name: Get j16.m3u8
+      run: |
+        touch ./j16.m3u8
+        sudo cat >./j16.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1860000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=q5T3DxdzLs0)
+        EOL		
+        # j17 熱海
+    - name: Get j17.m3u8
+      run: |
+        touch ./j17.m3u8
+        sudo cat >./j17.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1860000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=AyD6fzns6u8)
+        EOL
+        # j18 能登鹿島駅
+    - name: Get j18.m3u8
+      run: |
+        touch ./j18.m3u8
+        sudo cat >./j18.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1860000
+        $(yt-dlp --print urls hhttps://www.youtube.com/watch?v=THy9p2xJSek)
+        EOL 
+	    # j19 津山城（鶴山公園）
+    - name: Get j19.m3u8
+      run: |
+        touch ./j19.m3u8
+        sudo cat >./j19.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1260000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=YQMk-L2RPwc)
+        EOL		
     - name: git add
       run: |
         git add -A
