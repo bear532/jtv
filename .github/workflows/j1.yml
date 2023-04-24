@@ -202,16 +202,16 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1860000
         $(yt-dlp --print urls hhttps://www.youtube.com/watch?v=THy9p2xJSek)
         EOL 
-	    # j19 津山城（鶴山公園）
+        # j19 津山城（鶴山公園）
     - name: Get j19.m3u8
       run: |
         touch ./j19.m3u8
-        sudo cat >./j19.m3u8 <<EOL
+        sudo cat >./j18.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1260000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j1860000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=YQMk-L2RPwc)
-        EOL		
+        EOL 	
     - name: git add
       run: |
         git add -A
