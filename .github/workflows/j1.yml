@@ -206,7 +206,7 @@ jobs:
     - name: Get j19.m3u8
       run: |
         touch ./j19.m3u8
-        sudo cat >./j18.m3u8 <<EOL
+        sudo cat >./j19.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
