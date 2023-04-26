@@ -34,7 +34,7 @@
 
 能登鹿島駅,https://raw.githubusercontent.com/bear532/jtv/main/j18.m3u8
 
-津山城（鶴山公園）,https://raw.githubusercontent.com/bear532/jtv/main/j20.m3u8
+津山城（鶴山公園）,https://raw.githubusercontent.com/bear532/jtv/main/j19.m3u8
 
 日本平夢,https://raw.githubusercontent.com/bear532/jtv/main/j20.m3u8
 
@@ -43,4 +43,3 @@
 羽田空港,https://raw.githubusercontent.com/bear532/jtv/main/j22.m3u8
 
 国立天文台,https://raw.githubusercontent.com/bear532/jtv/main/j23.m3u8
-
