@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=j660000
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1682501019/ei/O5lIZJqJEsmCjQTv6ZiYDA/ip/40.77.92.166/id/Q1oSzjYcV9w.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/hls_chunk_host/rr4---sn-q4fl6ns7.googlevideo.com/spc/qEK7BxBDGzhI51jG3GmCJFF-kgCJeFo/vprv/1/playlist_type/LIVE/initcwndbps/5870000/mh/Xg/mm/44/mn/sn-q4fl6ns7/ms/lva/mv/m/mvi/4/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1682478990/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,spc,vprv,playlist_type/sig/AOq0QJ8wRQIgc8d8upXPpurWBU_pRE6o6LiubtEXXWMxzH_we3ieCDQCIQCm9jNsDcif5-V00D8UAT6ZNPqw0QD8_9zEgn8ro36eMQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAKm21Q02JLtCBHTq3nwgPoE8Vd2SbKwi_XEMZf4z-SQwAiBdtg9u7SrXGRTIMhikmPgLt6H7EEKezcc2CxLHnHcRTw%3D%3D/playlist/index.m3u8
-EOL  
-# j7厳島神社の大鳥居	
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1682509525/ei/dbpIZMfsMc668wTWmINw/ip/172.177.208.144/id/OrGQEkkEkx4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr5---sn-p5qlsndd.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/qEK7B4CdScbXwhtCtTRD-_HQa4krkQU/vprv/1/playlist_type/DVR/mh/Z5/mm/44/mn/sn-p5qlsndd/ms/lva/mv/u/mvi/5/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1682487730/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIhALr9aBDkOmQ0ISZYu6Qd39QlSE9SjRCJz7c-Tv-2V65SAiBFjfSFVTmzQuUvAxcon_PTc8Hua0nJwNk86t6Bz1AiSA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgcliimra0w2ZWol2RYdL_lUsSMhmzhfReRd1TbYKpJGcCICtZN35TI_3DCaMzA2SDiCYRsQKVM0WvkCLj3Bptpwz0/playlist/index.m3u8
+EOL		
+# j7 富士山
