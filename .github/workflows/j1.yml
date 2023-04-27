@@ -199,8 +199,8 @@ jobs:
         sudo cat >./j18.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls hhttps://www.youtube.com/watch?v=THy9p2xJSek)
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=25600000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=THy9p2xJSek)
         EOL 
         # j19 津山城（鶴山公園）
     - name: Get j19.m3u8
