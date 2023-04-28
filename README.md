@@ -43,3 +43,7 @@
 羽田空港,https://raw.githubusercontent.com/bear532/jtv/main/j22.m3u8
 
 国立天文台,https://raw.githubusercontent.com/bear532/jtv/main/j23.m3u8
+
+大阪国際空港,https://raw.githubusercontent.com/bear532/jtv/main/j24.m3u8
+
+博多駅,https://raw.githubusercontent.com/bear532/jtv/main/j25.m3u8
