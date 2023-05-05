@@ -38,7 +38,7 @@
 
 日本平夢,https://raw.githubusercontent.com/bear532/jtv/main/j20.m3u8
 
-北九州市,https://raw.githubusercontent.com/bear532/jtv/main/j21.m3u8
+台場海浜公園,https://raw.githubusercontent.com/bear532/jtv/main/j21.m3u8
 
 羽田空港,https://raw.githubusercontent.com/bear532/jtv/main/j22.m3u8
 
@@ -47,3 +47,7 @@
 大阪国際空港,https://raw.githubusercontent.com/bear532/jtv/main/j24.m3u8
 
 博多駅,https://raw.githubusercontent.com/bear532/jtv/main/j25.m3u8
+
+長崎空港,https://raw.githubusercontent.com/bear532/jtv/main/j26.m3u8
+
+新千歳空港,https://raw.githubusercontent.com/bear532/jtv/main/j27.m3u8
