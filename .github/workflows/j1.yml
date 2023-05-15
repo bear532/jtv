@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=SThyjXJ6xC4)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Mm9XUA5ASdk)
         EOL		
         # j11 富士山中伊豆
     - name: Get j11.m3u8
