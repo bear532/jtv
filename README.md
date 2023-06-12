@@ -16,7 +16,7 @@
 
 富士山河口湖,https://raw.githubusercontent.com/bear532/jtv/main/j9.m3u8
 
-富士山本栖湖,https://raw.githubusercontent.com/bear532/jtv/main/j10.m3u8
+秋葉原,https://raw.githubusercontent.com/bear532/jtv/main/j10.m3u8
 
 富士山中伊豆,https://raw.githubusercontent.com/bear532/jtv/main/j11.m3u8
 
@@ -30,7 +30,7 @@
 
 大阪道頓堀,https://raw.githubusercontent.com/bear532/jtv/main/j16.m3u8
 
-熱海,https://raw.githubusercontent.com/bear532/jtv/main/j17.m3u8
+東伊豆.熱川.片瀬海岸,https://raw.githubusercontent.com/bear532/jtv/main/j17.m3u8
 
 能登鹿島駅,https://raw.githubusercontent.com/bear532/jtv/main/j18.m3u8
 
