@@ -112,7 +112,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=Sv9hcJ3k5h4)
         EOL
-        # j10 仙台城跡
+        # j10 秋葉原
     - name: Get j10.m3u8
       run: |
         touch ./j10.m3u8
@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Z0g0BhhNuVg)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=3p6ekFrTZHw)
         EOL		
         # j11 富士山中伊豆
     - name: Get j11.m3u8
