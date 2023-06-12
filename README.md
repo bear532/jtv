@@ -2,7 +2,7 @@
 
 恵比寿駅前,https://raw.githubusercontent.com/bear532/jtv/main/j2.m3u8
 
-東京六本木,https://raw.githubusercontent.com/bear532/jtv/main/j3.m3u8
+東京西武新宿駅 ,https://raw.githubusercontent.com/bear532/jtv/main/j3.m3u8
 
 東京新宿歌舞伎町,https://raw.githubusercontent.com/bear532/jtv/main/j4.m3u8
 
