@@ -92,7 +92,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=h6Z9v-qqHl8)
         EOL
-        # j8 富士山山中湖高台
+        # j8 富士山ライブカメラ 朝霧高原 より
     - name: Get j8.m3u8
       run: |
         touch ./j8.m3u8
@@ -100,7 +100,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=87929IvGa-8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=GToGoDDqpqc)
         EOL
         # j9 富士山河口湖
     - name: Get j9.m3u8
@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=3p6ekFrTZHw)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=p9RxwPgYm7c)
         EOL		
         # j11 富士山中伊豆
     - name: Get j11.m3u8
@@ -160,7 +160,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=LNiKVMGkEiM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=AiPyUWPPsIQ)
         EOL
         # j15 西武新宿駅
     - name: Get j15.m3u8
@@ -210,7 +210,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=D_10e8Eo01o)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=R7hyQ1FH4ZI)
         EOL 
         # j20 富士山平夢 
     - name: Get j20.m3u8
@@ -224,7 +224,7 @@ jobs:
         EOL	
         # j21 台場海浜公園
     - name: Get j21.m3u8
-      run: |
+      run: |       
         touch ./j21.m3u8
         sudo cat >./j21.m3u8 <<EOL
         #EXTM3U
@@ -240,7 +240,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=NhmiJ-tvQTk)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=S6yByGMVD5k)
         EOL 
         # j23 国立天文台
     - name: Get j23.m3u8
