@@ -1,3 +1,5 @@
+日本各景點直播循環,https://raw.githubusercontent.com/bear532/jtv/main/j0.m3u8
+
 东京新宿,https://raw.githubusercontent.com/bear532/jtv/main/j1.m3u8
 
 恵比寿駅前,https://raw.githubusercontent.com/bear532/jtv/main/j2.m3u8
