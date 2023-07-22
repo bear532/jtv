@@ -22,11 +22,11 @@ jobs:
       run: |
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
-        # 00日本各景點直播循環
-    - name: Get 00.m3u8
+        # j0日本各景點直播循環
+    - name: Get j0.m3u8
       run: |
-        touch ./00.m3u8
-        sudo cat >./00.m3u8 <<EOL
+        touch ./j0.m3u8
+        sudo cat >./j0.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
