@@ -22,6 +22,16 @@ jobs:
       run: |
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
+        # 00日本各景點直播循環
+    - name: Get 00.m3u8
+      run: |
+        touch ./00.m3u8
+        sudo cat >./00.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=owaarXChaXQ)
+        EOL    
         # j1东京新宿	
     - name: Get j1.m3u8
       run: |
