@@ -130,7 +130,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=GXWAylJuSSo)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=VmzXtbyi_Zc)
         EOL		
         # j11 富士山中伊豆
     - name: Get j11.m3u8
@@ -170,7 +170,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=AiPyUWPPsIQ)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Pk8Q-69MWSU)
         EOL
         # j15 西武新宿駅
     - name: Get j15.m3u8
@@ -212,7 +212,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=25600000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=THy9p2xJSek)
         EOL 
-        # j19 津山城（鶴山公園）
+        # j19 鷲羽山情報カメラ(瀬戸大橋)
     - name: Get j19.m3u8
       run: |
         touch ./j19.m3u8
@@ -220,7 +220,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=R7hyQ1FH4ZI)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=DHpL17mZdIE)
         EOL 
         # j20 富士山平夢 
     - name: Get j20.m3u8
@@ -252,7 +252,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=S6yByGMVD5k)
         EOL 
-        # j23 国立天文台
+        # j23 利尻島ライブカメラ 前浜２
     - name: Get j23.m3u8
       run: |
         touch ./j23.m3u8
@@ -260,7 +260,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=gm-57AcpZhQ)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=bAWueJBFcT0)
         EOL		
         # j24 大阪国際空港
     - name: Get j24.m3u8
