@@ -302,26 +302,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=Azbdr5jbN6o)
         EOL
-        # b01 東海岸即時影像
-    - name: Get b01.m3u8
-      run: |
-        touch ./b01.m3u8
-        sudo cat >./b01.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=7u0FrCJbv-c)
-        EOL	
-        # b02 台東各地景點最新狀況
-    - name: Get b02.m3u8
-      run: |
-        touch ./b02.m3u8
-        sudo cat >./b02.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=zfn6WnUzZeE)
-        EOL	        
+        
     - name: git add
       run: |
         git add -A
