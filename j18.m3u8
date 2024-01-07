@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=25600000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1704628875/ei/Kz6aZZj-IrezybgPxJaMqAE/ip/172.183.131.193/id/THy9p2xJSek.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-vgqsknll.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f-G_NZN8zaStH-Sdr1LuCSIV-2M/vprv/1/playlist_type/DVR/mh/SB/mm/44/mn/sn-vgqsknll/ms/lva/mv/u/mvi/1/pl/14/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1704606896/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhAM58VZnE-BsrkTV9rD9DgMwuYgFY3dCqxLf12cMEMjcIAiEA64xA1KArEY0P1oBZvfTK3yz_CFQnI_x73_vTWDt0-64%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AAO5W4owRAIgZrEXWAx8Cmq6T1boVMfiEEogCeLXehkAnwHJfuQg-UwCIH3iXbbabGxd5b82uANyjkpCXw_Klda2VerfTS6sCMGQ/playlist/index.m3u8
 EOL 
 # j19 鷲羽山情報カメラ(瀬戸大橋)
