@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1713906055/ei/J80nZv6aIKGDsfIPsd2HkAM/ip/20.172.44.131/id/lA6TaaMGgDo.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr4---sn-2imern76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f9N3hwHor4SKlGDE3d_mc3yaogF5OO3b/vprv/1/playlist_type/DVR/mh/QN/mm/44/mn/sn-2imern76/ms/lva/mv/u/mvi/4/pl/19/dover/11/pacing/0/keepalive/yes/mt/1713883695/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhANIZiwTXqg6ve6slZ2-rhWL47wiAektWzOOTOutrfjMPAiEAnFpQ0crt9ujesAGb8IWOnYJqK85wsH5Coqsd4D--h3M%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRQIgH8WWpVEOiGA8IGTmANMiDwt0cjOc8g7T2ONQAVm2xqgCIQCRlGSG6AHonPz2HFCM6mnc59l6q6HlcybJDvpEs-Dp2g%3D%3D/playlist/index.m3u8
 EOL 
 # j16大阪道頓堀	
